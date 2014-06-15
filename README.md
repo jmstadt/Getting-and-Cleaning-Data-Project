@@ -8,7 +8,7 @@ Then unzip the file
 In the unzipped file folder "UCI HAR Dataset" got to the file X_test.txt and X_train.txt
 Use Read.Table to read them into files DT1 adn DT2
 Merge DT1 and DT2 using rbind
-Read reference.txt and identify the columns that have mean and std
+Read features.txt and identify the columns that have mean and std
 Extract those columns into a new table using subset
 Change the tile of each of those columns to the descriptive title as per referenct.txt
 Write a tidy text file of the result
