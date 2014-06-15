@@ -23,7 +23,7 @@ the dataset to be downloaded
 "MergedTable"
 	rbind DT1 and DT2
 
-"reference.txt"
+"features.txt"
 	the info on the names of the data
 
 "Extract"
